@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import os
 import random
 
-TOKEN = os.getenv("BOT_TOKEN") or "8106915232:AAE9h1C0gVOgmjfFm-RaHRNLewyfuhbTwi4"  # Optional fallback
+TOKEN = os.getenv("8106915232:AAE9h1C0gVOgmjfFm-RaHRNLewyfuhbTwi4") or "8106915232:AAE9h1C0gVOgmjfFm-RaHRNLewyfuhbTwi4"  # Optional fallback
 
 guides = {
     "aviator": "✈️ Aviator Guide:\n1. Watch the plane.\n2. Cash out before it flies too high.\n3. Strategy: low risk = early cashout.",
